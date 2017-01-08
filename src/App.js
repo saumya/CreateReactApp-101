@@ -14,7 +14,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <div>
-          Seems its working
+          Start with this and then " npm run eject " to make it a standard reactJS application.
         </div>
       </div>
     );
