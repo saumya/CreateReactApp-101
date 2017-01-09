@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import CompOne from './components/CompOne.react';
+
 class App extends Component {
   render() {
     return (
@@ -16,6 +18,7 @@ class App extends Component {
         <div>
           Start with this and then " npm run eject " to make it a standard reactJS application.
         </div>
+        <CompOne />
       </div>
     );
   }
