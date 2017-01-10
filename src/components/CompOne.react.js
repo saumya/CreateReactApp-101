@@ -6,7 +6,7 @@ import React, {Component} from "react"
 
 //import '../App.css';
 //
-import { Jumbotron, Button,Grid } from 'react-bootstrap';
+import { Navbar,Jumbotron, Button,Grid } from 'react-bootstrap';
 
 //
 class CompOne extends Component {
@@ -15,7 +15,16 @@ class CompOne extends Component {
       <div className="HomeScreen">
         <div>Home</div>
         <p>Welcome screen. This component is just a test.</p>
-        
+        <Navbar inverse fixedTop>
+          <Grid>
+            <Navbar.Header>
+              <Navbar.Brand>
+                <a href="/">React App</a>
+              </Navbar.Brand>
+              <Navbar.Toggle />
+            </Navbar.Header>
+          </Grid>
+        </Navbar>
         <Jumbotron>
           <Grid>
             <h1>React Bootstrap with Create-React-App</h1>
