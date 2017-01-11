@@ -18,7 +18,10 @@ class App extends Component {
         <div>
           Start with this and then " npm run eject " to make it a standard reactJS application.
         </div>
-        <CompOne />
+        {
+          //renders the children
+          this.props.children
+        }
       </div>
     );
   }
