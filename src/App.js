@@ -7,6 +7,7 @@ import CompOne from './components/CompOne.react';
 class App extends Component {
   render() {
     return (
+      /*
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -18,6 +19,14 @@ class App extends Component {
         <div>
           Start with this and then " npm run eject " to make it a standard reactJS application.
         </div>
+        {
+          //renders the children
+          this.props.children
+        }
+      </div>
+      */
+      <div> 
+        <div>Create React App</div>
         {
           //renders the children
           this.props.children
