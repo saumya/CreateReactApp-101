@@ -6,7 +6,8 @@ import React, {Component} from "react"
 
 //import '../App.css';
 //
-import { Navbar,Jumbotron, Button,Grid } from 'react-bootstrap';
+import { Navbar,Jumbotron, Button,Grid,Col } from 'react-bootstrap';
+import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router'
 
 //
 class CompTwo extends Component {
@@ -25,7 +26,15 @@ class CompTwo extends Component {
                 target="_blank">
                 View React Bootstrap Docs
               </Button>
+
+              
+
             </p>
+          </Grid>
+          <Grid>
+            <Button bsSize="large"> 
+              <Link to="/">Home</Link> 
+            </Button>
           </Grid>
         </Jumbotron>
 
