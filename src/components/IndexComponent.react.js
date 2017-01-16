@@ -9,19 +9,14 @@ function IndexComponent(props) {
 	return(
 		<Col xs={12} md={12}>
 			<div>Index Component</div>
-
-			<Grid>
-				<Button bsSize="large"> 
-					<Link to="/one"> One </Link> 
-				</Button>
-			</Grid>
-			
-			<Grid>
-				<Button bsSize="large"> 
-					<Link to="/two"> Two </Link> 
-				</Button>
-			</Grid>
-
+				<div>
+					<div style={{ marginBottom:10, }}>
+						<Button bsSize="large"> <Link to="/one"> One </Link> </Button>
+					</div>
+					<div>
+						<Button bsSize="large"> <Link to="/two"> Two </Link> </Button>
+					</div>
+				</div>
 		</Col>
 	)
 }
