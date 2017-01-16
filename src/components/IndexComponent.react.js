@@ -1,8 +1,8 @@
 //
-import React, {Component} from 'react'
+import React from 'react'
 
-import { Col,Button,Grid } from 'react-bootstrap'
-import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router'
+import { Col,Button } from 'react-bootstrap'
+import { Link, } from 'react-router'
 
 
 function IndexComponent(props) {
