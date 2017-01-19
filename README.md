@@ -7,6 +7,7 @@ TODO
 ========
  - Need to work on a project without react-router
  - Make everything with react component so that the project can be ported to any webapp
+ - Research why the app is not portable to other websites !?
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
