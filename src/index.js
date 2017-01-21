@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap-theme.css';
 import IndexComponent from './components/IndexComponent.react';
 import CompOne from './components/CompOne.react';
 import CompTwo from './components/CompTwo.react';
+import CompThree from './components/CompThree.react';
 //
 import { Router, Route, IndexRoute, hashHistory, browserHistory, useRouterHistory } from 'react-router'
 
@@ -19,6 +20,7 @@ var routes = (
                 <IndexRoute component={IndexComponent} />
                 <Route path="one" component={CompOne} />
                 <Route path="two" component={CompTwo} />
+                <Route path="three" component={CompThree} />
               </Route>
             );
 //
