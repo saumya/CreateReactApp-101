@@ -16,8 +16,11 @@ function IndexComponent(props) {
 					<div style={{ marginBottom:10, }}>
 						<Button bsSize="large"> <Link to="/two"> Two </Link> </Button>
 					</div>
-					<div>
+					<div style={{ marginBottom:10, }}>
 						<Button bsSize="large"> <Link to="/three"> Three </Link> </Button>
+					</div>
+					<div>
+						<Button bsSize="large"> <Link to="/four"> Four </Link> </Button>
 					</div>
 				</div>
 		</Col>
