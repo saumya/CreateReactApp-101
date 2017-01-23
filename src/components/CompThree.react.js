@@ -8,6 +8,8 @@ import React, {Component} from "react"
 //
 import { Navbar,Jumbotron, Button,Grid,Col } from 'react-bootstrap';
 import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router'
+//
+import CompFour from './CompFour.react';
 
 //
 class CompThree extends Component {
@@ -25,6 +27,8 @@ class CompThree extends Component {
             </Button>
           </Grid>
         </Jumbotron>
+
+        <CompFour />
 
       </div>
     );
