@@ -10,6 +10,8 @@ import { Navbar,Jumbotron, Button,Grid,Col } from 'react-bootstrap';
 import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router'
 //
 import CompFour from './CompFour.react';
+//import CompThreeOne from './CompThreeOne.react';
+//import CompThreeTwo from './CompThreeTwo.react';
 
 //
 class CompThree extends Component {
@@ -25,8 +27,23 @@ class CompThree extends Component {
             <Button bsSize="large"> 
               <Link to="/">Home</Link> 
             </Button>
+            <Button bsSize="large"> 
+              <Link to="/three">Three : Home</Link> 
+            </Button>
+            <Button bsSize="large"> 
+              <Link to="/three/1">Three : One</Link> 
+            </Button>
+            <Button bsSize="large"> 
+              <Link to="/three/2">Three : Two</Link> 
+            </Button>
           </Grid>
         </Jumbotron>
+
+
+        {
+          //renders the children
+          this.props.children
+        }
 
         <CompFour />
 

@@ -12,6 +12,9 @@ import CompTwo from './components/CompTwo.react';
 import CompThree from './components/CompThree.react';
 import CompFour from './components/CompFour.react';
 //
+import CompThreeOne from './components/CompThreeOne.react';
+import CompThreeTwo from './components/CompThreeTwo.react';
+//
 import { Router, Route, IndexRoute, hashHistory, browserHistory, useRouterHistory } from 'react-router'
 
 // Refer : https://github.com/saumya/ReactRouter-102/blob/master/js/app.js
@@ -21,7 +24,10 @@ var routes = (
                 <IndexRoute component={IndexComponent} />
                 <Route path="one" component={CompOne} />
                 <Route path="two" component={CompTwo} />
-                <Route path="three" component={CompThree} />
+                <Route path="three" component={CompThree}>
+                  <Route path="1" component={CompThreeOne} />
+                  <Route path="2" component={CompThreeTwo} />
+                </ Route>
                 <Route path="four" component={CompFour} />
               </Route>
             );
